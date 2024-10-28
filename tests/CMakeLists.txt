@@ -28,6 +28,9 @@ add_executable(testrunner
 
     main.cpp
 
+    file_endpoint_tests.cpp
+    stream_endpoint_tests.cpp
+
 )
 
 target_link_libraries(testrunner
